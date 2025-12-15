@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-Category: idempiere-plugin
+Bundle-ManifestVersion: 2
+Bundle-Name: com.cdsoftware.docuware
+Bundle-SymbolicName: com.cdsoftware.docuware
+Bundle-Version: 10.0.0.qualifier
+Bundle-Vendor: INGEINT <https://www.ingeint.com>
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.apache.commons.lang3,
+ org.adempiere.base,
+ org.adempiere.plugin.utils,
+ org.adempiere.ui.zk,
+ zcommon,
+ zel,
+ zhtml,
+ zk,
+ zkbind,
+ zkplus,
+ zul,
+ zweb
+Import-Package: org.osgi.service.event, com.fasterxml.jackson.annotation;version="2.6.2",
+ com.fasterxml.jackson.core;version="2.6.2",
+ com.fasterxml.jackson.databind
+Service-Component: OSGI-INF/*.xml
+Bundle-ClassPath: .,
+ lib/freemarker.jar,
+ lib/jakarta.xml.bind-api.jar,
+ lib/okhttp.jar,
+ lib/okio.jar
+Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator

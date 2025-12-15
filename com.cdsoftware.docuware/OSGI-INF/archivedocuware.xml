@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="false" name="com.cdsoftware.docuware.model.ArchiveDocuware">
+   <implementation class="com.cdsoftware.docuware.model.ArchiveDocuware"/>
+   <property name="method" type="String" value="Docuware"/>
+   <property name="service.ranking" type="Integer" value="100"/>
+   <service>
+      <provide interface="org.compiere.model.IArchiveStore"/>
+   </service>
+</scr:component>
