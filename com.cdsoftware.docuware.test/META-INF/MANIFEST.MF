@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: com.cdsoftware.docuware Test
 Bundle-SymbolicName: com.cdsoftware.docuware.test
-Bundle-Version: 10.0.0.qualifier
+Bundle-Version: 12.0.0.qualifier
 Bundle-Vendor: INGEINT <https://www.ingeint.com>
 Fragment-Host: com.cdsoftware.docuware
 Bundle-ClassPath: .,
